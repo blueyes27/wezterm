@@ -2,7 +2,7 @@
 tags:
   - tuning
 ---
-# `animation_fps = 10`
+# `animation_fps = 5`
 
 {{since('20220319-142410-0fcdea07')}}
 

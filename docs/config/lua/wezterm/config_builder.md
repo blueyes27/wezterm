@@ -15,10 +15,8 @@ local wezterm = require 'wezterm'
 
 local config = wezterm.config_builder()
 
-config.color_scheme = 'Batman'
+config.color_scheme = 'Abernathy'
 
-return config
-```
 
 The config builder may look like a regular lua table but it is really a special
 userdata type that knows how to log warnings or generate errors if you attempt
@@ -43,8 +41,9 @@ function another_layer(config)
   helper(config)
 end
 
-config.color_scheme = 'Batman'
-
+config.color_scheme = 'Abernathy'
+return config
+```
 another_layer(config)
 
 return config
